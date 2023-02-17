@@ -1,23 +1,107 @@
-.logo {}
+  .logo-firstcolor {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 24px;
 
-.header-item {}
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #4D5AE5;
+  }
 
-.nav-link {list-style: none;
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;}
+
+  
+.header-item {list-style: none;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;;
 }
 
-.hero-heading {list-style: none;
+.nav-link {font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;}
+
+.adress-link {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;}
+
+.hero-primary-heading {font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;}
+
+.btn {
+
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;}
+
+.hero-heading-hiden {color: white;}
+
+.hero-secondary-heading {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
 }
 
-.btn {}
+.hero-item {list-style: none;
+text-decoration: none;}
 
-.hero-heading-hiden {}
+.hero-item-heading {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;}
 
-.hero-item {}
+.hero-item-content {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;}
 
-.hero-item-heading {}
+    .footer.content {
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px
+    }
 
-.hero-item-content {}
 
-.logo-firstcolor {}
+.filter-btn {
+    list-style: none;
+        }
 
-.portfolio-nav-item {}
+.filter-btn:active {
+    background-color: #404BBF;
+
