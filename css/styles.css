@@ -50,11 +50,14 @@
     color: #2E2F42;
 }
 
-.nav-link:active {
+.nav-link:active, :hover {
     color: #404BBF;
 }
 
 .adress-link:active {
+    color: #404BBF;
+}
+.adress-link:hover {
     color: #404BBF;
 }
 
