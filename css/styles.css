@@ -1,10 +1,13 @@
   body {
     font-family: "Roboto";
     font-style: normal;
-    color: #2E2F42;
+    color: #2E2F42;;
   }
   .list {
     list-style: none;
+  }
+  .link {
+    text-decoration: none;
   }
   
   
@@ -44,14 +47,14 @@
 }
 
 .nav-link {
-    text-decoration: none;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
 }
 
-.nav-link:active, :hover {
+.nav-:active, :hover {
     color: #404BBF;
 }
 
