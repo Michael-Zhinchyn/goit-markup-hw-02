@@ -38,21 +38,32 @@
     color: #2E2F42;;
 }
 
-.nav-link {font-family: 'Roboto';
+.nav-link {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
-    text-decoration: none;}
+    text-decoration: none;
+}
+.nav-link:active {
+    color: #404BBF;
+}
+.adress-link:active {
+    color: #404BBF;
+}
 
-.adress-link {text-decoration: none;
+
+.adress-link {
+    text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;}
+    color: #434455;
+}
 
                 /*HERO*/
 
@@ -70,20 +81,24 @@
     letter-spacing: 0.02em;
     color: #FFFFFF;}
 
-.btn {height: 56px;
+.btn {
+    
     width: 169px;
-
-    border-radius: 4px;
-    padding: 16px 32px 16px 32px;
+    height: 56px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border:  #4D5AE5;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.4px;
     color: #FFFFFF;
+
+}
+.btn:hover {
+    background: #404BBF;
 }
 
 .visually-hidden {
@@ -153,14 +168,16 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 .hero-item-content {font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 .footer-content {
     font-family: 'Roboto';
