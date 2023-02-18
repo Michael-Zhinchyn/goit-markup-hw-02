@@ -1,11 +1,11 @@
   :root {
-    --NAVY-BLUE: #2E2F42;
-    --SLATE: #434455;
-    --IRIS: #4D5AE5;
-    --OCEAN: #404BBF;
-    --CORNFLOWER: #E7E9FC;
+    --site-primary: #2E2F42;
+    --body-text: #434455;
+    --btn-primary: #4D5AE5;
+    --btn-hover-active: #404BBF;
+    --btn-border: #E7E9FC;
     --WHITE: #FFFFFF;
-    --CLOUD: #f4f4fd;
+    --btn-back: #F4F4FD;
   }
 
   body {
@@ -29,7 +29,7 @@
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--NAVY-BLUE);
+    color: var(--site-primary);
 }
   .logo-firstcolor {
       font-family: 'Raleway';
@@ -39,7 +39,7 @@
       line-height: 1.33;
       letter-spacing: 0.03em;
       text-transform: uppercase;
-      color: #4D5AE5;
+      color: var(--btn-primary);
   }
 
 
@@ -48,32 +48,31 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--NAVY-BLUE);
+    color: var(--site-primary);
 }
 
 .nav {
     border-bottom: 
     1px solid
-    var(--CORNFLOWER);
+    var(--btn-border);
 }
 
 .menu-link {
-    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--NAVY-BLUE);
+    color: var(--site-primary);
 }
 
 .menu-link:active, :hover {
-    color: var(--OCEAN);
+    color: var(--btn-hover-active);
 }
 
 .adress-link:active {
-    color: var(--OCEAN);
+    color: var(--btn-hover-active);
 }
 .adress-link:hover {
-    color: var(--OCEAN);
+    color: var(--btn-hover-active);
 }
 
 .adress-link {
@@ -81,11 +80,11 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--NAVY-BLUE);
+    color: var(--site-primary);
 }
 /*-----------HERO--------------*/
 .hero {
-    background-color: var(--NAVY-BLUE);
+    background-color: var(--site-primary);
 }
 
 .hero-primary-heading {
@@ -100,18 +99,18 @@
 .btn {
     width: 169px;
     height: 56px;
-    background: var(--IRIS);
+    background: var(--btn-primary);
     border-radius: 4px;
-    border: var(--IRIS);
+    border: var(--btn-primary);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.4px;
-    ccolor: var(--WHITE);
+    color: var(--WHITE);
     cursor: pointer;
 
 }
 .btn:hover {
-    background: var(--OCEAN);
+    background: var(--btn-hover-active);
 }
 
 .visually-hidden {
@@ -128,7 +127,7 @@
 }
 
 .hero-secondary {
-    background: var(--CLOUD);
+    background: var(--btn-back);
 }
 .hero-secondary-heading {
     font-weight: 700;
@@ -137,27 +136,28 @@
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--NAVY-BLUE);
+    color: var(--site-primary);
 
 }
 
 .filter-btn{
-    text-decoration: none;
+    font-family: inherit;
     width: 116px;
     height: 48px;
-    background: var(--CLOUD);
-    border: 1px 
-    var(--CORNFLOWER);
+    background: var(--btn-back);
+
+    border: 1px solid 
+    var(--btn-border);
     border-radius: 4px;
     
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--IRIS);
+    color: var(--btn-primary);
 }
 
 .filter-btn:active { 
-        background: var(--OCEAN);
+        background: var(--btn-hover-active);
         color: var(--WHITE);
 }
 .filter-btn {
@@ -169,25 +169,24 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--NAVY-BLUE);
+    color: var(--site-primary);
 }
 
 .hero-item-content {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--SLATE);
+    color: var(--body-text);
 }
 
 .footer-content {
-    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--CORNFLOWER);
+    color: var(--btn-border);
 }
 
 .footer {
-    background-color: var(--NAVY-BLUE);
+    background-color: var(--site-primary);
 }
