@@ -1,12 +1,18 @@
+  body {
+    font-family: "Roboto";
+    font-style: normal;
+  }
+  .list {
+    list-style: none;
+  }
+  
+  
   .logo-firstcolor {
       font-family: 'Raleway';
       font-style: normal;
       font-weight: 800;
       font-size: 18px;
-      line-height: 24px;
-
-      display: flex;
-      align-items: center;
+      line-height: 1.33;
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: #4D5AE5;
@@ -18,19 +24,13 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
-
-    display: flex;
-    align-items: center;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;}
-
+    color: #2E2F42;
+}
 
 .header-item {
-    list-style: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -38,59 +38,54 @@
     color: #2E2F42;;
 }
 
+.nav {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .nav-link {
-    font-family: 'Roboto';
-    font-style: normal;
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
-    text-decoration: none;
 }
+
 .nav-link:active {
     color: #404BBF;
 }
+
 .adress-link:active {
     color: #404BBF;
 }
 
-
 .adress-link {
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
 }
-
-                /*HERO*/
-
+/*-----------HERO--------------*/
 .hero {
     background-color: #2E2F42;
 }
 
 .hero-primary-heading {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+}
 
 .btn {
-    
     width: 169px;
     height: 56px;
     background: #4D5AE5;
     border-radius: 4px;
     border:  #4D5AE5;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.4px;
@@ -108,71 +103,55 @@
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
+.hero-secondary {
+    background: #F4F4FD;;
+}
 .hero-secondary-heading {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize
-
-}
-
-.hero-item {
-    list-style: none;
 }
 
 .button-link{
     text-decoration: none;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
     width: 116px;
-        height: 48px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
     
-        /* CLOUD */
-        background: #F4F4FD;
-        /* CORNFLOWER */
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D5AE5;
 }
+
 .button-link:active { 
         background:#404BBF;
         color: #FFFFFF;
 }
-.filter-links .button-link {
+.button-link {
     cursor: pointer;
 }
+/*-------------Hero------------*/
 
-.hero-item-heading {font-family: 'Roboto';
-    font-style: normal;
+.hero-item-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-decoration: none;
 }
 
-.hero-item-content {font-family: 'Roboto';
-    font-style: normal;
+.hero-item-content {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -180,13 +159,14 @@
 }
 
 .footer-content {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #E7E9FC;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 }
 
-.footer {background: #2E2F42;}
+.footer {
+    background: #2E2F42;
+}
