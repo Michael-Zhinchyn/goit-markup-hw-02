@@ -1,6 +1,7 @@
   body {
     font-family: "Roboto";
     font-style: normal;
+    color: #2E2F42;
   }
   .list {
     list-style: none;
@@ -35,7 +36,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;;
+    
 }
 
 .nav {
@@ -113,7 +114,7 @@
 }
 
 .hero-secondary {
-    background: #F4F4FD;;
+    background: #F4F4FD;
 }
 .hero-secondary-heading {
     font-weight: 700;
@@ -121,7 +122,10 @@
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize
+    text-transform: capitalize;
+    color: #2E2F42;
+    
+
 }
 
 .button-link{
@@ -151,14 +155,14 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-decoration: none;
+    color: #2E2F42;
 }
 
 .hero-item-content {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
+    color: #434455;
 }
 
 .footer-content {
