@@ -77,7 +77,6 @@
 
 .adress-link {
     text-decoration: none;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--site-primary);
@@ -173,14 +172,12 @@
 }
 
 .hero-item-content {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--body-text);
 }
 
 .footer-content {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
