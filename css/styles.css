@@ -69,10 +69,8 @@
     color: var(--btn-hover-active);
 }
 
+.adress-link:hover,
 .adress-link:focus {
-    color: var(--btn-hover-active);
-}
-.adress-link:hover {
     color: var(--btn-hover-active);
 }
 
