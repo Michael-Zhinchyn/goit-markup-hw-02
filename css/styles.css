@@ -44,8 +44,6 @@
       color: var(--btn-primary);
   }
   
-
-
     .header-item {
     font-weight: 500;
     font-size: 16px;
@@ -54,10 +52,9 @@
     color: var(--site-primary);
 }
 
-.nav {
-    border-bottom: 
-    1px solid
-    var(--btn-border);
+.header {
+    border-bottom:
+            1px solid var(--btn-border);
 }
 
 .menu-link {
