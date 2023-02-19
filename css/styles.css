@@ -11,12 +11,14 @@
   body {
     font-family: "Roboto";
     font-style: normal;
+    font-size: 400;
+    background-color: #FFFFFF;
   }
 
-  .list {
+  .list, .list-link {
     list-style: none;
   }
-  .link {
+  .link, .list-link{
     text-decoration: none;
   }
   
@@ -41,6 +43,7 @@
       text-transform: uppercase;
       color: var(--btn-primary);
   }
+  
 
 
     .header-item {
@@ -64,7 +67,7 @@
     color: var(--site-primary);
 }
 
-.menu-link:active, :hover {
+.menu-link:active, .menu-link:hover {
     color: var(--btn-hover-active);
 }
 
@@ -77,9 +80,10 @@
 
 .adress-link {
     text-decoration: none;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--site-primary);
+    color: var(--body-text);
 }
 /*-----------HERO--------------*/
 .hero {
@@ -101,6 +105,7 @@
     background: var(--btn-primary);
     border-radius: 4px;
     border: var(--btn-primary);
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.4px;
@@ -155,7 +160,7 @@
     color: var(--btn-primary);
 }
 
-.filter-btn:active { 
+.filter-btn:hover { 
         background: var(--btn-hover-active);
         color: var(--WHITE);
 }
@@ -164,6 +169,9 @@
 }
 /*-------------Hero------------*/
 
+.hero-item {
+
+}
 .hero-item-heading {
     font-weight: 500;
     font-size: 20px;
@@ -186,4 +194,16 @@
 
 .footer {
     background-color: var(--site-primary);
+}
+.logo-footer {
+    text-decoration: none;
+    color: var(--btn-back);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
