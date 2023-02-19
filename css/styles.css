@@ -160,8 +160,15 @@
 
 .filter-btn:hover { 
         background: var(--btn-hover-active);
-        color: var(--WHITE);
+        color: var(--WHITE);  
 }
+
+.filter-btn:active {
+    background: var(--btn-hover-active);
+    color: var(--WHITE);
+    border-color: var(--btn-hover-active);
+}
+
 .filter-btn {
     cursor: pointer;
 }
