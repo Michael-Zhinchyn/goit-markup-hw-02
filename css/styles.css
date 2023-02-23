@@ -16,14 +16,14 @@
     color: var(--body-text);
   }
 
-  .list, .list-link {
+.list, .list-link {
     list-style: none;
   }
   .link, .list-link{
     text-decoration: none;
   }
   
-  .logo {
+.logo {
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
@@ -34,7 +34,7 @@
     text-transform: uppercase;
     color: var(--site-primary);
 }
-  .logo-firstcolor {
+.logo-firstcolor {
       font-family: 'Raleway';
       font-style: normal;
       font-weight: 800;
@@ -45,7 +45,7 @@
       color: var(--btn-primary);
   }
   
-    .header-item {
+.header-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
